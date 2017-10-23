@@ -1,8 +1,6 @@
-from math import *
 import numpy as np
 import cv2, time
 import matplotlib.pyplot as plt
-import cmath
 
 
 def transform(x, y, orgX, orgY):
@@ -10,10 +8,10 @@ def transform(x, y, orgX, orgY):
     return c ** 1.2
 
 
-# convert the sparse matrix dictionary (mapping (x, y) to (b, g, r)) to a numpy three dimensional array
 const = np.array([256, 256, 256], np.int16)
 
 
+# convert the sparse matrix dictionary (mapping (x, y) to (b, g, r)) to a numpy three dimensional array
 def toMatrix(newDict):
     global const
     arrs = newDict.keys()
@@ -65,7 +63,7 @@ def main():
     orgX, orgY = (width // 2, height // 2)
 
     # the kernel size
-    kernel = 5
+    kernel = 7
     c = kernel // 2
     newImg = {}
     for x in range(width):
