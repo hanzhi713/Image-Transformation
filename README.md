@@ -4,7 +4,6 @@
 #### Example
 
 <img src="http://latex.codecogs.com/gif.latex?\huge {f(z)=z^{1.2}}"/>
-<br/>
 
 ##### Kernel size = 7x7
 ![](demo.png)
