@@ -1,6 +1,8 @@
-# Image-Transformation
+# Image Transformation
 ### Perform an arbitrary image transformation by complex mapping
-##### You may need to adjust the size of the convolution kernel in order to obtain a smooth destination image
+This repo contains the source code used in a creative math project. Click [here](Image Transformation Based on Complex Mapping.pdf) to download the PPT.
+
+You may need to adjust the size of the convolution kernel in accord with your function in order to obtain a smooth destination image
 #### Example
 
 ![f(z)=z^1.2](http://latex.codecogs.com/gif.latex?\huge%20{f(z)=z^{1.2}})

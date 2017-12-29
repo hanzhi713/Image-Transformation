@@ -61,7 +61,7 @@ def calculateSparseArray(img, wStart, wEnd, h, orgX, orgY, kernel):
     return newImg
 
 def main():
-    img = cv2.imread("5.png")
+    img = cv2.imread("pics/5.png")
     t = time.clock()
     height, width = img.shape[0:2]
     orgX, orgY = (width // 2, height // 2)

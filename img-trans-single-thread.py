@@ -58,7 +58,7 @@ def avPixels(newImg, m, n, bgr, size, c):
 
 def main():
     t = time.clock()
-    img = cv2.imread("5.png")
+    img = cv2.imread("pics/5.png")
     height, width = img.shape[0:2]
     orgX, orgY = (width // 2, height // 2)
 
